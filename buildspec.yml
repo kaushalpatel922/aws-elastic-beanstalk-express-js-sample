@@ -6,6 +6,3 @@ phases:
       nodejs: 12
     commands:
         - npm install
-  post_build:
-    commands:
-      - aws elasticbeanstalk update-environment --environment-name tt-env
