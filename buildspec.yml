@@ -6,6 +6,6 @@ phases:
       nodejs: 16
       commands:
         - npm install
-post_build:
-  commands:
-    - aws elasticbeanstalk update-environment --environment-name test-environment
+  post_build:
+    commands:
+      - aws elasticbeanstalk update-environment --environment-name test-environment
