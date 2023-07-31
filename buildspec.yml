@@ -8,4 +8,4 @@ phases:
         - npm install
   post_build:
     commands:
-      - aws elasticbeanstalk update-environment --environment-name test-environment
+      - aws elasticbeanstalk update-environment --environment-name tt-env
